@@ -1,0 +1,33 @@
+form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .input {
+    height: 20px;
+    width: 200px;
+    border: none;
+    border-bottom: 1px solid;
+    margin-right: 5px;
+  }
+  .submit {
+    height: 20px;
+    width: 50px;
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+  }
+  div {
+    display: flex;
+    width: 1100px;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  .newsapi {
+    height: 60px;
+  }
+  * {
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+  }

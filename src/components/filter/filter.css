@@ -1,0 +1,14 @@
+.btn-flex {
+  width: 700px;
+  margin: 50px;
+}
+.btn-flex button {
+  height: 30px;
+  width: 150px;
+  margin: 10px;
+  background-color: #1a73e8;
+  color: white;
+  font-weight: 700;
+  border: none;
+  border-radius: 7px;
+}
