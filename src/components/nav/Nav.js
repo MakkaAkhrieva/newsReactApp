@@ -10,7 +10,6 @@ const Nav = () => {
     e.preventDefault();
     const term = e.target.value;
     setInput(term);
-    console.log(input);
   };
   const handlerClick = (e, input) => {
     e.preventDefault();

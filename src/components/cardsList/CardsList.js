@@ -37,7 +37,6 @@ const CardsList = (props) => {
   });
 
   if (items.length === 0) {
-    console.log("adfas");
     return message;
   }
 

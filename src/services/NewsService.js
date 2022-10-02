@@ -8,8 +8,6 @@ const useNewsService = () => {
     const res = await request(
       `https://newsapi.org/v2/everything?q=${topic}&pageSize=${limit}&apiKey=${_apiKey}`
     );
-    console.log(res.articles);
-    console.log(res.articles.map(_transformNews));
     return res.articles.map(_transformNews);
   };
   const _transformNews = (news) => {
